@@ -1,0 +1,10 @@
+Deskripsi
+Sebuah bilangan bulat positif aa dikatakan ekstra keju jika dan hanya jika jumlah dari perkalian 
+setiap digitnya dan penjumlahan setiap digitnya sama dengan aa. Sebagai contoh, 2929 adalah ekstra 
+keju karena (2 \times 9) + (2 + 9) = 29(2×9)+(2+9)=29.
+
+Diberikan sebuah bilangan bulat NN, hitung banyaknya bilangan ekstra keju dari 11 sampai NN.
+
+Batasan
+1 ≤ N ≤ 10^91≤N≤10 
+9
