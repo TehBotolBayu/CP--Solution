@@ -1,0 +1,24 @@
+Deskripsi
+Pak Dengklek mengadakan lomba lari jauh untuk bebek-bebeknya. Rute lomba lari Pak Dengklek merupakan garis lurus. 
+Di rute lomba lari tersebut, terdapat NN patok, dinomori 11 sampai NN. Patok ke-ii berjarak A_iA i kilometer dari 
+patok sebelumnya, patok pertama berjarak A_1A 1 kilometer dari garis mulai. Ada KK bebek yang mengikuti lomba lari, 
+dinomori 11 sampai KK. Bebek ke-ii dapat berlari sejauh B_iB i kilometer. Semua bebek mulai berlari dari garis mulai. 
+Pak Dengklek meminta Anda untuk menentukan nomor patok terjauh yang bisa dilewati oleh setiap bebeknya.
+
+Format Masukan
+Baris pertama berisi dua bilangan NN dan KK. Baris kedua berisi NN bilangan yang dipisahkan spasi, bilangan ke-ii menyatakan A_iA 
+i Baris ketiga berisi KK bilangan yang dipisahkan spasi, bilangan ke-ii menyatakan B_iB
+
+Format Keluaran
+Berisi KK baris, yang masing-masing terdiri dari satu bilangan. Bilangan pada baris ke-ii menyatakan nomor patok terakhir yang dicapai atau dilewati bebek ke-ii.
+
+Contoh Masukan
+5 5
+1 2 1 2 1
+2 3 5 6 10
+Contoh Keluaran
+1
+2
+3
+4
+5
