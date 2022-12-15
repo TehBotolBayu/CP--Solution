@@ -29,7 +29,6 @@ function s(a, b){
 function sym(args) {
     for(let i = 0; i<arguments.length; i++){
         arguments[i] = arguments[i].sort();
-        arguments[i] = [...new Set(arguments[i])];
     }
     let z = 0;
     while(z < arguments.length-1){
@@ -37,7 +36,7 @@ function sym(args) {
         z+= 1;
         arguments[z] = ans;
     }
-
+    arguments[z] = [...new Set(arguments[z])];
     return arguments[z];
 
 }
